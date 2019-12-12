@@ -1,0 +1,35 @@
+<div class="container">
+    <h1 class="h1 display-6 text-left mt-2 bg-light">Add Profile Form</h1>
+  <form action="/profile/addprofile" method="POST" enctype="multipart/form-data">
+   <div class="row">
+    <div class="col-4">
+      <input type="file" class="form-control" placeholder="upload a phot" name="photo">
+    </div>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="enter name" name="name">
+    </div>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="phone" name="phone">
+    </div>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="enter company" name="company">
+    </div>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="enter location" name="location">
+    </div>
+    <div class="col-4">
+      <input type="text" class="form-control" placeholder="education" name="education">
+    </div>
+    <div class="col-12 mt-12">
+        <button type="submit" class="btn btn-dark">Submit</button>
+    </div>
+
+    </div>
+  </form>
+  {{#each errors}}
+  <div class="col-md-4 offset-4"></div>
+  <div class="alert alert-danger mt-2">{{text}}</div>
+  {{else}}
+  {{/each}}
+</div>
+

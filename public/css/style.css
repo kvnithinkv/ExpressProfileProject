@@ -1,0 +1,19 @@
+/* @import 'https://fonts.googleapis.com/css?family=Roboto&display=swap'; */
+
+.logo{
+    height: 30px;
+    width: 100px;
+}
+
+body{
+    background: #eee;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    background: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 8px 1px #ccc;
+}
