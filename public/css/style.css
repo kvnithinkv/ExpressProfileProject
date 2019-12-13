@@ -1,4 +1,5 @@
-/* @import 'https://fonts.googleapis.com/css?family=Roboto&display=swap'; */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 
 .logo{
     height: 30px;
@@ -16,4 +17,32 @@ form{
     padding: 15px;
     border-radius: 4px;
     box-shadow: 1px 1px 8px 1px #ccc;
+}
+.container{
+    padding-top: 10px;
+    background:#fff;
+    border-radius:3px;
+    margin-top:30px;
+}
+.photo{
+    display: flex;
+    margin: 10px 0;
+}
+.photo img{
+    border-radius: 0px;
+    padding:10px;
+    border:1px solid #eee;
+}
+.profileh1{
+font-size: 20px;
+text-transform: uppercase;
+margin: 9px 0px 0;
+}
+
+.img-responsive{
+    height: 340px;
+    width: 250px;
+}
+.clearfix{
+    clear: both;
 }
